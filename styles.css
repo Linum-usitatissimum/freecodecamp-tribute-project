@@ -1,0 +1,50 @@
+#image {
+    max-width:100%;
+    height:auto;
+  }
+  img, #image{
+    display:block;
+    justify-content:center;
+  }
+  #img-div {
+    display:block;
+    justify-content:center;
+    align-items:center;
+    padding:10vw;
+  }
+  #title {
+    text-align:center;
+    background-color:rgb(80,80,80);
+    color:rgb(200,200,200);
+    font-size:40px;
+    font-weight:800px;
+  }
+  body {
+    background-color: rgb(255,240,230);
+  }
+  #img-caption {
+    font-style:italic;
+    padding:5%;
+  }
+  .border {
+    border:4px black solid;
+  }
+  div {
+    background-color:rgb(200,200,200);
+  }
+  p {
+    text-align:center;
+  }
+  #tribute-info {
+    margin:0;
+    padding:10px 30px;
+    border:15px rgb(210,210,210) double;
+    font-size:16px;
+  }
+  div.border, img {
+    display:flex;
+    justify-content:center;
+    height:500px;
+    align-items:center;
+  
+  }
