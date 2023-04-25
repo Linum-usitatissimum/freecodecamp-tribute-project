@@ -1,6 +1,14 @@
+* {
+  margin:0;
+  padding:0;
+}
+
 #image {
     max-width:100%;
     height:auto;
+    margin:0 auto;
+    padding:0 auto;
+  
   }
   img, #image{
     display:block;
@@ -21,6 +29,8 @@
   }
   body {
     background-color: rgb(255,240,230);
+    margin:0 auto;
+    padding: 0 auto;
   }
   #img-caption {
     font-style:italic;
@@ -28,16 +38,20 @@
   }
   .border {
     border:4px black solid;
+    margin:0 auto;
+    padding:0 auto;
   }
-  div {
+  div, li {
     background-color:rgb(200,200,200);
+    margin:0 auto;
+    padding:0 auto;
   }
   p {
     text-align:center;
   }
   #tribute-info {
-    margin:0;
-    padding:10px 30px;
+    margin:0 auto;
+    padding:35px 40px;
     border:15px rgb(210,210,210) double;
     font-size:16px;
   }
@@ -47,4 +61,16 @@
     height:500px;
     align-items:center;
   
+  }
+  #main {
+    margin:0 auto;
+    padding:0 auto;
+  }
+  main {
+    margin:0 auto;
+    padding:0 auto;
+  }
+  ul {
+    margin:0 auto;
+    padding: 0 auto;
   }
